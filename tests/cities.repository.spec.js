@@ -5,8 +5,8 @@ const chai = require('chai');
 const chaiAsPromised = require('chai-as-promised');
 const sinon = require('sinon');
 
-// chai.use(chaiAsPromised);
-// chai.should();
+chai.use(chaiAsPromised);
+chai.should();
 
 describe('Testing cities.repository.js', function () {
   describe('Testing getCityDataByZipCode()', function () {
